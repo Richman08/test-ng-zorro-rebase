@@ -77,9 +77,34 @@ nz-header {
   bottom: 0;
 }
 
-nz-content {
+.inner-layout {
+  width: 80%;
+}
+
+.content-wrapper {
+  width: 100%;
   margin: 24px;
 }
+
+.carousel-wrapper {
+  width: 50%;
+}
+
+[nz-carousel-content] {
+  width: 500px;
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  color: #fff;
+  overflow: hidden;
+}
+
+h3 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
 
 .inner-content {
   padding: 24px;

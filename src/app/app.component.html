@@ -46,7 +46,13 @@
         <nz-breadcrumb-item>List</nz-breadcrumb-item>
         <nz-breadcrumb-item>App</nz-breadcrumb-item>
       </nz-breadcrumb>
-      <nz-content>Content</nz-content>
+      <nz-content class="content-wrapper">
+        <nz-carousel [nzEffect]="'fade'" class="carousel-wrapper">
+          <div nz-carousel-content *ngFor="let index of array">
+            <h3>{{ index }}</h3>
+          </div>
+        </nz-carousel>
+      </nz-content>
     </nz-layout>
   </nz-layout>
 </nz-layout>

@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   theme = true;
   isCollapsed = false;
+  array = [1, 2, 3, 4];
 
   toggleCollapsed(): void {
     this.isCollapsed = !this.isCollapsed;

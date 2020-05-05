@@ -13,7 +13,7 @@ import { NZ_I18N } from 'ng-zorro-antd/i18n';
 import { en_US } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
-import {NzBreadCrumbModule, NzButtonModule, NzSwitchModule} from 'ng-zorro-antd';
+import {NzBreadCrumbModule, NzButtonModule, NzCarouselModule, NzSwitchModule} from 'ng-zorro-antd';
 
 registerLocaleData(en);
 
@@ -33,7 +33,8 @@ registerLocaleData(en);
     NzButtonModule,
     NzMenuModule,
     NzSwitchModule,
-    NzBreadCrumbModule
+    NzBreadCrumbModule,
+    NzCarouselModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]
