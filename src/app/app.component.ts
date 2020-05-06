@@ -7,15 +7,10 @@ import {Component, OnInit} from '@angular/core';
 })
 export class AppComponent implements OnInit{
   theme = true;
-  isCollapsed = false;
   array = [1, 2, 3, 4];
 
   constructor() {}
 
   ngOnInit(): void {
-  }
-
-  toggleCollapsed(): void {
-    this.isCollapsed = !this.isCollapsed;
   }
 }
